@@ -8,7 +8,7 @@ Built for students, competitive programmers, and anyone who wants a private, no-
 
 ## 📥 Download
 
-> ### 👉 **[Download PenDrive AI (.zip, ~2.2GB) — Google Drive](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)**
+> ### 👉 **[Download PenDrive AI (.zip, ~2.2GB) — Google Drive](https://drive.google.com/file/d/1bioh5Mx6_B3T2em9a9E8Lo86BZV8TFVZ/view?usp=drivesdk)**
 >
 > GitHub doesn't allow files this large, so the full package (llamafile + model + launcher) is hosted on Google Drive instead.
 
@@ -43,7 +43,7 @@ PenDriveAI.zip
 
 ## 🚀 Quick Start
 
-1. **[Download the ZIP from Google Drive](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)** (~2.2GB)
+1. **[Download the ZIP from Google Drive](https://drive.google.com/file/d/1bioh5Mx6_B3T2em9a9E8Lo86BZV8TFVZ/view?usp=drivesdk)** (~2.2GB)
 2. **Get the files onto your pendrive** — either works:
    - **Option A:** Extract the ZIP directly onto your pendrive (right-click the ZIP → Extract All → choose your pendrive drive as the destination)
    - **Option B:** Extract the ZIP anywhere on your PC first, then copy-paste the three extracted files (`llamafile.exe`, the `.gguf` model, and `start.bat`) onto your pendrive
@@ -71,7 +71,7 @@ Example:
 
 | Terminal after launch | Chat interface |
 |---|---|
-| ![Terminal running start.bat](img-1.png) | ![Browser chat UI](img-2.png) |
+| ![Terminal running start.bat](img 1.png) | ![Browser chat UI](img 2.png) |
 
 *(Replace the image paths above with your actual screenshot files once uploaded to a `/screenshots` folder in this repo.)*
 
