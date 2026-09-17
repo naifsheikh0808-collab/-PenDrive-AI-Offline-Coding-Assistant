@@ -6,6 +6,14 @@ Built for students, competitive programmers, and anyone who wants a private, no-
 
 ---
 
+## 📥 Download
+
+> ### 👉 **[Download PenDrive AI (.zip, ~2.2GB) — Google Drive](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)**
+>
+> GitHub doesn't allow files this large, so the full package (llamafile + model + launcher) is hosted on Google Drive instead.
+
+---
+
 ## ✨ Why this exists
 
 - 📴 **100% offline** — no API keys, no internet, no data leaves your machine
@@ -16,14 +24,13 @@ Built for students, competitive programmers, and anyone who wants a private, no-
 
 ---
 
-## 📦 What's inside
+## 📦 What's inside the ZIP
 
 ```
-PenDriveAI/
+PenDriveAI.zip
 ├── llamafile.exe              # The inference engine (runs the AI model)
 ├── qwen2.5-coder-3b-instruct-q4_k_m.gguf   # The AI model (coding-focused)
-├── start.bat                  # One-click launcher
-└── README.md                  # You are here
+└── start.bat                  # One-click launcher
 ```
 
 **Minimum requirements:**
@@ -36,9 +43,13 @@ PenDriveAI/
 
 ## 🚀 Quick Start
 
-1. **Download this repository** — click the green `Code` button on GitHub → `Download ZIP`
-2. **Extract the ZIP** directly onto your pendrive (minimum 8GB, formatted as NTFS or exFAT — not FAT32, since the model file is larger than 4GB)
-3. **Double-click `start.bat`**
+1. **[Download the ZIP from Google Drive](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)** (~2.2GB)
+2. **Get the files onto your pendrive** — either works:
+   - **Option A:** Extract the ZIP directly onto your pendrive (right-click the ZIP → Extract All → choose your pendrive drive as the destination)
+   - **Option B:** Extract the ZIP anywhere on your PC first, then copy-paste the three extracted files (`llamafile.exe`, the `.gguf` model, and `start.bat`) onto your pendrive
+   
+   > ⚠️ Format your pendrive as **NTFS or exFAT**, not FAT32 — FAT32 can't hold files over 4GB, and the ZIP/model are close to or over that.
+3. **Double-click `start.bat`** (on the pendrive)
 4. Wait for the terminal to show:
    ```
    main: server is listening on http://127.0.0.1:8080
@@ -46,6 +57,23 @@ PenDriveAI/
    (First load can take 30 seconds to a few minutes depending on your pendrive's read speed — this is normal, don't close the window.)
 5. Open your browser and go to **http://127.0.0.1:8080**
 6. Start chatting with your offline coding assistant! 🎉
+
+---
+
+## 📸 Screenshots
+
+<!--
+Add your screenshots to a folder named "screenshots" in the repo, then reference them below.
+Example:
+![start.bat running in terminal](screenshots/terminal-loading.png)
+![Chat interface in browser](screenshots/chat-ui.png)
+-->
+
+| Terminal after launch | Chat interface |
+|---|---|
+| ![Terminal running start.bat](screenshots/terminal-loading.png) | ![Browser chat UI](screenshots/chat-ui.png) |
+
+*(Replace the image paths above with your actual screenshot files once uploaded to a `/screenshots` folder in this repo.)*
 
 ---
 
@@ -91,8 +119,8 @@ Useful flags you can add:
 - This is often just slow disk read — a multi-GB file on a USB pendrive can take a few minutes. Check Task Manager → Performance tab; if Disk or RAM usage is active, it's still working.
 
 **It's been stuck for 5+ minutes with zero activity**
-- Check your free RAM — you need at least the model's file size in free RAM (e.g. ~2GB free for the 3B model, ~5GB free for a 7B model).
-- Verify the `.gguf` file isn't corrupted — compare its file size to the original on Hugging Face. A failed/interrupted download is the most common cause of a silent hang.
+- Check your free RAM — you need at least the model's file size in free RAM (e.g. ~2GB free for the 3B model).
+- Verify the `.gguf` file isn't corrupted — if the ZIP download from Google Drive got interrupted, re-download it.
 
 **"No usable GPU found" warning**
 - Harmless if you're running CPU-only (`-ngl 0`). This just confirms it's using your CPU, not a GPU.
@@ -102,6 +130,9 @@ Useful flags you can add:
 
 **Browser can't connect to localhost:8080**
 - Make sure the terminal window is still open and shows "server is listening" — closing it stops the AI server.
+
+**Google Drive says "can't scan for viruses" or shows a warning**
+- Normal for large files — just click "Download anyway."
 
 ---
 
