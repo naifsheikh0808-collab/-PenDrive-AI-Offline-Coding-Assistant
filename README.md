@@ -1,4 +1,10 @@
-# 🖥️ PenDrive AI — Offline Coding Assistant
+<div align="center">
+
+![Kernel Key Banner](screenshots/banner.png)
+
+</div>
+
+# 🖥️ Kernel Key — Offline Coding Assistant
 
 A fully offline, portable AI assistant that runs straight from a USB pendrive — no internet, no install, no cloud. Plug it into any Windows PC and get a local coding assistant tuned for **programming, DSA (Data Structures & Algorithms), and Computer Science** problems.
 
@@ -8,7 +14,7 @@ Built for students, competitive programmers, and anyone who wants a private, no-
 
 ## 📥 Download
 
-> ### 👉 **[Download PenDrive AI (.zip, ~2.2GB) — Google Drive](https://drive.google.com/file/d/1bioh5Mx6_B3T2em9a9E8Lo86BZV8TFVZ/view?usp=drivesdk)**
+> ### 👉 **[Download Kernel Key (.zip, ~2.2GB) — Google Drive](https://drive.google.com/file/d/1bioh5Mx6_B3T2em9a9E8Lo86BZV8TFVZ/view?usp=drivesdk)**
 >
 > GitHub doesn't allow files this large, so the full package (llamafile + model + launcher) is hosted on Google Drive instead.
 
@@ -27,7 +33,7 @@ Built for students, competitive programmers, and anyone who wants a private, no-
 ## 📦 What's inside the ZIP
 
 ```
-PenDriveAI.zip
+KernelKey.zip
 ├── llamafile.exe              # The inference engine (runs the AI model)
 ├── qwen2.5-coder-3b-instruct-q4_k_m.gguf   # The AI model (coding-focused)
 └── start.bat                  # One-click launcher
@@ -66,7 +72,7 @@ PenDriveAI.zip
 Add your screenshots to a folder named "screenshots" in the repo, then reference them below.
 Example:
 ![start.bat running in terminal](screenshots/terminal-loading.png)
-![Chat interface in browser](screenshots/chat-ui.png)
+![Chat interface in browser](screenshots/img_1.png)
 -->
 
 | Terminal after launch | Chat interface |
