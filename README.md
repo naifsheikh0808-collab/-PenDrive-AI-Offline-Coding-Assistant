@@ -71,7 +71,7 @@ Example:
 
 | Terminal after launch | Chat interface |
 |---|---|
-| ![Terminal running start.bat](screenshots/terminal-loading.png) | ![Browser chat UI](screenshots/chat-ui.png) |
+| ![Terminal running start.bat](img-1.png) | ![Browser chat UI](img-2.png) |
 
 *(Replace the image paths above with your actual screenshot files once uploaded to a `/screenshots` folder in this repo.)*
 
