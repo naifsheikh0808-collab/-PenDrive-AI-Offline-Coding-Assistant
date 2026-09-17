@@ -1,6 +1,6 @@
 <div align="center">
 
-![Kernel Key Banner](screenshots/banner1.png)
+![Kernel Key Banner](screenshots/banner1.jpg)
 
 </div>
 
